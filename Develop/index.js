@@ -44,6 +44,12 @@ const questions = () => {
         {type: 'input',
         message: 'What is your email address?',
         name: 'email'
+        },
+        {
+            name: "license",
+            type: "list",
+            message: "Choose your license:",
+            choices: ["MIT", "Apache", "GPL", "BSD3"]
         }
     ]);
 };
