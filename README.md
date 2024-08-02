@@ -1,7 +1,7 @@
-[![Generic badge](https://img.shields.io/badge/license-MIT-<COLOR>.svg)](#license)
-  # Generate README
+[![Generic badge](https://img.shields.io/badge/license-N/A-<COLOR>.svg)](#license)
+  # README-generator
   ## Description
-  It will generate a readme file with provided user info
+  A simple CLI app which allows the user to generate README files with sleek, readable markdown.
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -10,19 +10,17 @@
   * [License](#license)
   * [Questions](#questions)
   ## Installation
-  Clone the repo from github, then run through command line
+  First navigate to the directory you'd like to store the app on, using a CLI. Once there, navigate to the link 'https://github.com/NickSchenck/README-generator' and clone the repository(git clone https://github.com/NickSchenck/README-generator). Once the repository has been copied onto your device, navigate into its directory using your CLI. Install the inquirer packet using the command, 'npm i inquirer'.
   ## Tests
   N/A
   ## Usage
-  To generate a readme file for developers to use with their projects
+  Once the user has followed the installation instructions, they can run the app using the command, 'node index'.
   ## Contributing
   N/A
   ## License
-  ### This app is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
+  ### This app is licensed under the [N/A](This app has no license.) license.
   ## Questions
   * GitHub: [NickSchenck](https://github.com/NickSchenck)
   * Email: 
   [yoyo4games@yahoo.com](mailto:yoyo4games@yahoo.com)
-  ## Video https://drive.google.com/file/d/1UR_KyEdK0ZxckSxDo5tLpLgyRDkJkx_X/view
   
-    
