@@ -1,5 +1,5 @@
 [![Generic badge](https://img.shields.io/badge/license-N/A-<COLOR>.svg)](#license)
-  # README-generator
+  # README Generator
   ## Description
   A simple CLI app which allows the user to generate README files with sleek, readable markdown.
   ## Table of Contents
@@ -18,7 +18,7 @@
   ## Contributing
   N/A
   ## License
-  ### This app is licensed under the [N/A](This app has no license.) license.
+  ### This app has no applicable license.
   ## Questions
   * GitHub: [NickSchenck](https://github.com/NickSchenck)
   * Email: 

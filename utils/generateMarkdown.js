@@ -23,6 +23,13 @@ function generateMarkdown(data) {
     default: licenseLink = 'This app has no license.';
   };
 
+  let licenseText = ``;
+  if(data.license === `N/A`){
+    licenseText = `This app has no applicable license.`;
+  }else{
+    licenseText = `This app is licensed under the [${data.license}](${licenseLink}) license.`;
+  };
+
   return `[![Generic badge](https://img.shields.io/badge/license-${data.license}-<COLOR>.svg)](#license)
   # ${data.title}
   ## Description
@@ -43,7 +50,7 @@ function generateMarkdown(data) {
   ## Contributing
   ${data.contribute}
   ## License
-  ### This app is licensed under the [${data.license}](${licenseLink}) license.
+  ### ${licenseText}
   ## Questions
   * GitHub: [${data.github}](https://github.com/${data.github})
   * Email: 
